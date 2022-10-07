@@ -58,7 +58,7 @@ function NoTraceback({ setResult }: { setResult: Dispatch<SetStateAction<any>> }
 function Layout({ children }: { children: any }) {
   return <Flex flexDir="column">
     <Heading>tracedcord</Heading>
-    <Heading as="h3" size="sm">Check whether what version of nextcord someone is using, just by their traceback!</Heading>
+    <Heading as="h3" size="sm">Check what version of nextcord someone is using, just by their traceback!</Heading>
     {children}
   </Flex>
 }
